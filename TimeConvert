@@ -1,0 +1,11 @@
+def TimeConvert(num)
+  time=[(num/60), num.modulo(60)]
+  time = time.join(":")
+  # code goes here
+  return time
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+TimeConvert(STDIN.gets)  
